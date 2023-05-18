@@ -45,7 +45,7 @@ void addTweet(DSString tweet, DSString sentiment)
 vector<DSString> nonsentimentalWords;
 // list of non-sentimental words to take out of tweets that are neither positive or negative
 // vector of non-sentimental words to take out of tweets that are neither positive or negative
-vector<DSString> createVector()
+void createVector()
 {
     nonsentimentalWords.push_back("a");
     nonsentimentalWords.push_back("about");
