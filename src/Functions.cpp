@@ -1,4 +1,4 @@
-
+#include "Functions.h"
 vector<DSString>positiveTweets;
 vector<DSString>negativeTweets;
 void readTrainFile(char fileToOpen[]) {
