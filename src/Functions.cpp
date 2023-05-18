@@ -228,7 +228,7 @@ vector<DSString> createVector()
     nonsentimentalWords.push_back("now");
     nonsentimentalWords.push_back("then");
 };
-vector<Word> posWords;
+vector<Word> positiveWords;
 vector<Word> negativeWords;
 void addWords(vector<DSString> &tweetsList, vector<Word> &wordsList)
 {
