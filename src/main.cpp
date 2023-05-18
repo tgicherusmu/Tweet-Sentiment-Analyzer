@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     cout << "Reading training file..." << endl;
     readTrainFile("../input/train_dataset_20k.csv");
     // get words
-    addWords(positiveTweets, posWords);
+    addWords(positiveTweets, positiveWords);
     addWords(negativeTweets, negativeWords);
 
     cout << "Reading test file..." << endl;
