@@ -393,8 +393,8 @@ void wordExists(int &sentimentScore, DSString &word)
 {
     int positiveOcc = 0, negativeOcc = 0;
     // checks if the word exists
-    vector<Word>::iterator it = find(posWords.begin(), posWords.end(), Word(word.c_str()));
-    if (it != posWords.end())
+    vector<Word>::iterator it = find(positiveWords.begin(), positiveWords.end(), Word(word.c_str()));
+    if (it != positiveWords.end())
         // if it does exist, find the number of occurrences of that word in the training phase
         positiveOcc += it->quantity;
     // repeat process for negativeWords
