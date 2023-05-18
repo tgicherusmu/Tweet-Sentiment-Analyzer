@@ -30,7 +30,7 @@ void chopUpWord(DSString *word);
 bool validWord(DSString word);
 void removeChar(DSString *word, char c);
 // words split into positive and negative from corresponding tweet list
-extern vector<Word> posWords;
+extern vector<Word> positiveWords;
 extern vector<Word> negativeWords;
 
 // predict sentiment of tweet, either 4 for positive or 0 for negative
