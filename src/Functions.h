@@ -15,7 +15,7 @@ using namespace std;
 
 // vector of positive and negative tweets after reading training file
 
-vector<DSString> createVector();
+void createVector();
 extern vector<DSString> positiveTweets;
 extern vector<DSString> negativeTweets;
 // put tweets into positive and negative vector based on their sentiment
