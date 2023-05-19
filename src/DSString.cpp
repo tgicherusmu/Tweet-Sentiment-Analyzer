@@ -17,11 +17,13 @@ DSString::~DSString() {
 }
 
 DSString& DSString::operator= (const char* s) {
+    delete[] str;
     str = new char[strlen(s) + 1];
     strcpy(str, s);
     return *this;
 }
 DSString& DSString::operator= (const DSString& s) {
+    delete[] str;
     str = new char[strlen(s.str) + 1];
     strcpy(str, s.str);
     return *this;
