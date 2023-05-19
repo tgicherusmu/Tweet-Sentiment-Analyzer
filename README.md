@@ -1,6 +1,6 @@
 # Assignment: Don't Be Sentimental!
 
-*My Command Line Arguments: 
+My Command Line Arguments: 
 
 *Git clone [URL]
 
