@@ -14,6 +14,7 @@
 #include"DSString.h"
 using namespace std;
 
+void createVector();
 // vector of positive and negative tweets after reading training file
 extern vector<DSString>positiveTweets;
 extern vector<DSString>negativeTweets;
