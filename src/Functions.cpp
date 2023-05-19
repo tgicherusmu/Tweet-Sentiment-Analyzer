@@ -37,6 +37,8 @@ void addTweet(DSString tweet, DSString sentiment) {
     else if (strcmp(sentiment.c_str(), "0") == 0)
         negativeTweets.push_back(tweet);
 }
+
+vector<DSString> nonsentimentalWords;
 // list of non-sentimental words to take out of tweets that are neither positive or negative
 void createVector()
 {
