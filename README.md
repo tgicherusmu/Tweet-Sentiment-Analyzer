@@ -1,5 +1,18 @@
 # Assignment: Don't Be Sentimental!
 
+*My Command Line Arguments: 
+*Git clone [URL]
+*Cd tweet-sentiment/
+*Mkdir build
+*Cmake ..
+*Make
+*Cd build
+*Cat ../input/test_dataset_10k.csv
+*Cd 
+*Cd tweet-sentiment/
+*Cat ./tweet_sentiment_analysis output.csv
+*Cat output.csv
+
 **Objective:** 
 
 * Practice the use of git and GitHub.
